@@ -124,3 +124,13 @@ let m = 2;
 
 m *= 3 + 5; // (same as m *= 8, same as m = m * 8 )
 console.log(m); // 16
+
+// Increment and Decrement
+
+let counter = 2;
+++counter; // (same as counter = counter + 1)
+console.log(counter); // 3
+
+let counter2 = 2;
+--counter2; // (same as counter = counter - 1)
+console.log(counter2); // 1
