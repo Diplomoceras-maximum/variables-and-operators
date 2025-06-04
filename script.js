@@ -82,3 +82,17 @@ console.log(calc4); // 3 (converts "3" to a number)
 
 let calc5 = "6" / "2";
 console.log(calc5); // 3 (converts both "6" and "2" into numbers)
+
+// Numeric Conversion (Unary)
+
+let x = 1;
+console.log(+x); // 1 (no effect on numbers)
+
+console.log(+true); // 1 (converts non-numbers into numbers)
+console.log(+" "); // 0 (converts non-numbers into numbers)
+
+let books = "2";
+let pens = "3";
+
+console.log(books + pens); // 23
+console.log(+books + +pens); // 5
