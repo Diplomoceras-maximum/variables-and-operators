@@ -52,3 +52,27 @@ console.log(8 % 4); // 0 (4 fits twice and leaves 0)
 console.log(2 ** 2); // 4 (2 x 2 = 4)
 console.log(2 ** 3); // 8 (2 x 2 x 2 = 8)
 console.log(2 ** 4); // 16 (2 x 2 x 2 x 2 = 16)
+
+// String Concatenation
+
+// Only works with + operator
+
+let message = "Hello" + " " + "World";
+console.log(message); // Hello World
+
+let calc = "1" + 2;
+console.log(calc); // 12 (If atleast 1 operand is a string all others are converted to string)
+
+let calc2 = 2 + 2 + "1";
+console.log(calc2); // 41 (4 + "1")
+
+let calc3 = "1" + 2 + 2;
+console.log(calc3); // 122 ("1" + 2 = "12" + 2 = 122)
+
+// Other operators only work with numbers
+
+let calc4 = 6 - "3";
+console.log(calc4); // 3 (converts "3" to a number)
+
+let calc5 = "6" / "2";
+console.log(calc5); // 3 (converts both "6" and "2" into numbers)
