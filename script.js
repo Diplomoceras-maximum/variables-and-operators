@@ -59,7 +59,7 @@ console.log(2 ** 4); // 16 (2 x 2 x 2 x 2 = 16)
 // Operator is binary if it has two operands (5 * 3, 5 and 3 being the two operands)
 // Operands are what operators are applied to, sometimes called arguments
 
-// String Concatenation
+// String Concatenation (Binary)
 
 // Only works with + operator
 
