@@ -109,3 +109,18 @@ console.log(+books + +pens); // 5
 // 2 assignment
 
 // unary operations are higher than binary and therefore performed first
+
+// Modify-in-place
+
+let n = 2;
+
+n += 5; // (same as n = n + 5)
+console.log(n); // 7
+
+n *= 2; // (sames as n = n * 2)
+console.log(n); // 14
+
+let m = 2;
+
+m *= 3 + 5; // (same as m *= 8, same as m = m * 8 )
+console.log(m); // 16
