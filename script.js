@@ -96,3 +96,16 @@ let pens = "3";
 
 console.log(books + pens); // 23
 console.log(+books + +pens); // 5
+
+// Precedence Table of Operators
+
+// 14 unary plus
+// 14 unary negation
+// 13 exponentitiation
+// 12 multiplication
+// 12 division
+// 12 addition
+// 11 subtraction
+// 2 assignment
+
+// unary operations are higher than binary and therefore performed first
