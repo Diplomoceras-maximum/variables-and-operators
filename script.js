@@ -53,6 +53,15 @@ console.log(2 ** 2); // 4 (2 x 2 = 4)
 console.log(2 ** 3); // 8 (2 x 2 x 2 = 8)
 console.log(2 ** 4); // 16 (2 x 2 x 2 x 2 = 16)
 
+// Unary vs Binary and Operand
+
+// Operator is unary if it has a single operand (x++, x being the operand)
+// Operator is binary if it has two operands (5 * 3, 5 and 3 being the two operands)
+// Operands are what operators are applied to, sometimes called arguments
+
+let x = 1;
+x = -x;
+console.log(x); // -1
 // String Concatenation
 
 // Only works with + operator
